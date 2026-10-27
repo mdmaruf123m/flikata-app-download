@@ -1,0 +1,7 @@
+{
+  "name": "flikata-landing-page",
+  "private": true,
+  "scripts": {
+    "build": "true"
+  }
+}

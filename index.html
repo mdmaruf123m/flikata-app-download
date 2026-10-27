@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="bn" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title id="pageTitle">ফ্লিকাটা অ্যাপ | সোশ্যাল মিডিয়া ও আয়ের প্ল্যাটফর্ম</title>
+    <meta name="description" content="ফ্লিকাটা হলো বাংলা সোশ্যাল মিডিয়া ও ক্রিয়েটর আয়ের প্ল্যাটফর্ম। রিলস, স্টোরি, চ্যাট, ডিজিটাল ওয়ালেট এবং অফিসিয়াল Android APK ডাউনলোড করুন.">
+    <meta name="keywords" content="ফ্লিকাটা, Flikata, ফ্লিকাটা অ্যাপ, Android APK, বাংলা সোশ্যাল মিডিয়া, ক্রিয়েটর মনিটাইজেশন">
+    <meta name="author" content="ফ্লিকাটা">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#0056ff">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ফ্লিকাটা">
+    <meta property="og:title" content="ফ্লিকাটা অ্যাপ | সোশ্যাল মিডিয়া ও আয়ের প্ল্যাটফর্ম">
+    <meta property="og:description" content="রিলস, স্টোরি, চ্যাট, ডিজিটাল ওয়ালেট ও ক্রিয়েটর মনিটাইজেশন—ফ্লিকাটা Android অ্যাপের অফিসিয়াল ল্যান্ডিং পেজ।">
+    <meta property="og:image" content="im1.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ফ্লিকাটা অ্যাপ | সোশ্যাল মিডিয়া ও আয়ের প্ল্যাটফর্ম">
+    <meta name="twitter:description" content="ফ্লিকাটা Android অ্যাপ ডাউনলোড করুন এবং সোশ্যাল মিডিয়া ও ক্রিয়েটর আয়ের ফিচার ব্যবহার করুন।">
+    <meta name="twitter:image" content="im1.png">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ফ্লিকাটা",
+      "alternateName": "Flikata",
+      "applicationCategory": "SocialNetworkingApplication",
+      "operatingSystem": "Android",
+      "description": "রিলস, স্টোরি, চ্যাট, ডিজিটাল ওয়ালেট ও ক্রিয়েটর মনিটাইজেশন সুবিধাসহ বাংলা সোশ্যাল মিডিয়া অ্যাপ।",
+      "downloadUrl": "flikata.apk",
+      "fileSize": "22.8 MB",
+      "inLanguage": "bn",
+      "screenshot": ["im1.png", "im2.png", "im3.png"]
+    }
+    </script>
+<!-- Google Fonts: Noto Sans Bengali fixes the '১' (1) glyph rendering issue across all devices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style-01.css">
+</head>
+<body>
+
+    <!-- Header Navigation: Left Logo & Name | Center Language | Right Light/Dark Mode -->
+    <header>
+        <div class="nav-container">
+            <!-- Left: Logo & Brand Name -->
+            <a href="#home" class="logo-wrap" aria-label="ফ্লিকাটা হোম">
+                <div class="logo-icon" data-i18n="logoLetter">ফ</div>
+                <span class="logo-text" data-i18n="brandName">ফ্লিকাটা</span>
+            </a>
+
+            <!-- Center: Language Toggle -->
+            <div class="nav-center">
+                <button class="control-btn-3d" id="langToggle">
+                    <i class="fa-solid fa-earth-asia" style="color: var(--primary-blue);"></i>
+                    <span id="langBtnText" data-i18n="langSwitchBtn">ভাষা: বাংলা</span>
+                </button>
+            </div>
+
+            <!-- Right: Dark / Light Mode Toggle Icon -->
+            <div class="nav-right">
+                <button class="control-btn-3d theme-toggle" id="themeToggle" aria-label="Theme Toggle">
+                    <i class="fa-solid fa-moon" id="themeIcon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="badge-3d">
+                <i class="fa-solid fa-bolt" style="color: #f59e0b;"></i>
+                <span data-i18n="heroBadge">অফিশিয়াল অ্যান্ড্রয়েড অ্যাপ রিলিজ (সংস্করণ ১.০)</span>
+            </div>
+            <h1 data-i18n="heroTitle">আপনার নতুন প্রজন্মের <span>সোশ্যাল মিডিয়া</span> এবং আর্নিং প্ল্যাটফর্ম!</h1>
+            <p data-i18n="heroDesc">
+                <strong>ফ্লিকাটা</strong> অ্যাপে যুক্ত হোন বন্ধুদের সাথে, শেয়ার করুন আপনার মনের কথা, রিলস ভিডিও, স্টোরি এবং রিয়েল-টাইম চ্যাট। সাথে থাকছে কনটেন্ট ক্রিয়েটরদের জন্য <strong>৫৫% রেভিনিউ শেয়ার মনিটাইজেশন</strong> এবং সরাসরি <strong>নগদ ও রকেটের</strong> মাধ্যমে টাকা উত্তোলনের সুবিধা!
+            </p>
+
+            <div class="hero-cta-group">
+                <a href="flikata.apk" download="flikata.apk" class="btn-3d btn-download-lg">
+                    <i class="fa-solid fa-download"></i>
+                    <span data-i18n="heroBtnDownload">ফ্লিকাটা অ্যাপ ডাউনলোড করুন</span>
+                </a>
+                <a href="#screenshots" class="btn-secondary-3d">
+                    <i class="fa-solid fa-images"></i>
+                    <span data-i18n="heroBtnGallery">স্ক্রিনশট দেখুন</span>
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <h3 data-i18n="stat1Val">৫৫%</h3>
+                    <p data-i18n="stat1Lbl">বিজ্ঞাপন রেভিনিউ শেয়ার</p>
+                </div>
+                <div class="stat-card">
+                    <h3 data-i18n="stat2Val">৳ টাকা</h3>
+                    <p data-i18n="stat2Lbl">নগদ ও রকেট ওয়ালেট</p>
+                </div>
+                <div class="stat-card">
+                    <h3 data-i18n="stat3Val">১০০%</h3>
+                    <p data-i18n="stat3Lbl">দ্রুত ও নিরাপদ অ্যাপ</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3D Phone Preview -->
+        <div class="hero-visual">
+            <div class="floating-badge fb-1">
+                <div class="fb-icon" style="background: #10b981;">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                </div>
+                <div>
+                    <div style="font-size: 11px; color: var(--text-secondary);" data-i18n="fb1Sub">মনিটাইজেশন সুবিধা</div>
+                    <div data-i18n="fb1Title">৫৫% রেভিনিউ শেয়ার</div>
+                </div>
+            </div>
+
+            <div class="phone-3d-wrap" onclick="openLightbox(0)">
+                <img src="im1.png" alt="ফ্লিকাটা অ্যাপের হোম স্ক্রিন">
+            </div>
+
+            <div class="floating-badge fb-2">
+                <div class="fb-icon" style="background: #0056ff;">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div>
+                    <div style="font-size: 11px; color: var(--text-secondary);" data-i18n="fb2Sub">ভেরিফাইড প্রোফাইল</div>
+                    <div data-i18n="fb2Title">নীল ব্যাজ সিস্টেম</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive 3D Screenshot Slider & Zoom Gallery -->
+    <section class="section" id="screenshots">
+        <div class="section-header">
+            <h2 data-i18n="galHeading">অ্যাপের ইন্টারফেস ও স্ক্রিনশট গ্যালারি</h2>
+            <p data-i18n="galSub">বাম থেকে ডানে স্ক্রল করে অ্যাপের ভেতরের ডিজাইন দেখুন। যেকোনো স্ক্রিনশটের ওপর ক্লিক করলে সেটি বড় করে জুম ইন এবং জুম আউট করে দেখতে পারবেন।</p>
+        </div>
+
+        <div class="gallery-wrapper">
+            <div class="carousel-controls">
+                <div class="scroll-hint">
+                    <i class="fa-solid fa-arrows-left-right"></i>
+                    <span data-i18n="galHint">বাম থেকে ডানে স্ক্রল করুন অথবা ছবির ওপর ক্লিক করে জুম করুন</span>
+                </div>
+                <div class="nav-arrows">
+                    <button class="arrow-btn" id="scrollLeftBtn" aria-label="Scroll Left">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="arrow-btn" id="scrollRightBtn" aria-label="Scroll Right">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="screenshots-track" id="screenshotTrack">
+                <!-- Screenshot 1 -->
+                <div class="screen-card" onclick="openLightbox(0)">
+                    <div class="screen-img-box">
+                        <img src="im1.png" alt="Screenshot 1" loading="lazy">
+                        <div class="zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-i18n="zoomOverlayText">জুম করে দেখুন</span>
+                        </div>
+                    </div>
+                    <div class="screen-label">
+                        <h4 data-i18n="sc1Title">১. হোম পেজ ও স্টোরি</h4>
+                        <span data-i18n="sc1Sub">নিউজ ফিড, স্টোরি ও পোস্ট</span>
+                    </div>
+                </div>
+
+                <!-- Screenshot 2 -->
+                <div class="screen-card" onclick="openLightbox(1)">
+                    <div class="screen-img-box">
+                        <img src="im2.png" alt="Screenshot 2" loading="lazy">
+                        <div class="zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-i18n="zoomOverlayText">জুম করে দেখুন</span>
+                        </div>
+                    </div>
+                    <div class="screen-label">
+                        <h4 data-i18n="sc2Title">২. রিলস ভিডিও পেজ</h4>
+                        <span data-i18n="sc2Sub">শর্ট ভিডিও, লাইক ও শেয়ার</span>
+                    </div>
+                </div>
+
+                <!-- Screenshot 3 -->
+                <div class="screen-card" onclick="openLightbox(2)">
+                    <div class="screen-img-box">
+                        <img src="im3.png" alt="Screenshot 3" loading="lazy">
+                        <div class="zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-i18n="zoomOverlayText">জুম করে দেখুন</span>
+                        </div>
+                    </div>
+                    <div class="screen-label">
+                        <h4 data-i18n="sc3Title">৩. পোস্ট তৈরি পেজ</h4>
+                        <span data-i18n="sc3Sub">ছবি, ভিডিও, রিলস ও টেক্সট স্টাইল</span>
+                    </div>
+                </div>
+
+                <!-- Screenshot 4 -->
+                <div class="screen-card" onclick="openLightbox(3)">
+                    <div class="screen-img-box">
+                        <img src="im4.png" alt="Screenshot 4" loading="lazy">
+                        <div class="zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-i18n="zoomOverlayText">জুম করে দেখুন</span>
+                        </div>
+                    </div>
+                    <div class="screen-label">
+                        <h4 data-i18n="sc4Title">৪. রিয়েল-টাইম চ্যাট পেজ</h4>
+                        <span data-i18n="sc4Sub">সক্রিয় ইউজার ও দ্রুত মেসেজিং</span>
+                    </div>
+                </div>
+
+                <!-- Screenshot 5 -->
+                <div class="screen-card" onclick="openLightbox(4)">
+                    <div class="screen-img-box">
+                        <img src="im5.png" alt="Screenshot 5" loading="lazy">
+                        <div class="zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-i18n="zoomOverlayText">জুম করে দেখুন</span>
+                        </div>
+                    </div>
+                    <div class="screen-label">
+                        <h4 data-i18n="sc5Title">৫. প্রোফাইল পেজ</h4>
+                        <span data-i18n="sc5Sub">কভার ফটো, ভেরিফাইড ব্যাজ ও বায়ো</span>
+                    </div>
+                </div>
+
+                <!-- Screenshot 6 -->
+                <div class="screen-card" onclick="openLightbox(5)">
+                    <div class="screen-img-box">
+                        <img src="im6.png" alt="Screenshot 6" loading="lazy">
+                        <div class="zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-i18n="zoomOverlayText">জুম করে দেখুন</span>
+                        </div>
+                    </div>
+                    <div class="screen-label">
+                        <h4 data-i18n="sc6Title">৬. স্মার্ট মেনু ও শর্টকাট</h4>
+                        <span data-i18n="sc6Sub">ডার্ক মোড, পেজ, বিজ্ঞাপন ও মার্কেটপ্লেস</span>
+                    </div>
+                </div>
+
+                <!-- Screenshot 7 -->
+                <div class="screen-card" onclick="openLightbox(6)">
+                    <div class="screen-img-box">
+                        <img src="im7.png" alt="Screenshot 7" loading="lazy">
+                        <div class="zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-i18n="zoomOverlayText">জুম করে দেখুন</span>
+                        </div>
+                    </div>
+                    <div class="screen-label">
+                        <h4 data-i18n="sc7Title">৭. ডিজিটাল ওয়ালেট (টাকা)</h4>
+                        <span data-i18n="sc7Sub">নগদ ও রকেট রিচার্জ এবং উত্তোলন</span>
+                    </div>
+                </div>
+
+                <!-- Screenshot 8 -->
+                <div class="screen-card" onclick="openLightbox(7)">
+                    <div class="screen-img-box">
+                        <img src="im8.png" alt="Screenshot 8" loading="lazy">
+                        <div class="zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-i18n="zoomOverlayText">জুম করে দেখুন</span>
+                        </div>
+                    </div>
+                    <div class="screen-label">
+                        <h4 data-i18n="sc8Title">৮. প্রফেশনাল ড্যাশবোর্ড</h4>
+                        <span data-i18n="sc8Sub">ভিউ, এনগেজমেন্ট ও অ্যানালিটিক্স</span>
+                    </div>
+                </div>
+
+                <!-- Screenshot 9 -->
+                <div class="screen-card" onclick="openLightbox(8)">
+                    <div class="screen-img-box">
+                        <img src="im9.png" alt="Screenshot 9" loading="lazy">
+                        <div class="zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span data-i18n="zoomOverlayText">জুম করে দেখুন</span>
+                        </div>
+                    </div>
+                    <div class="screen-label">
+                        <h4 data-i18n="sc9Title">৯. মনিটাইজেশন প্রোগ্রাম</h4>
+                        <span data-i18n="sc9Sub">শর্তাবলি ও কনটেন্ট ম্যানেজমেন্ট</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Features Section -->
+    <section class="section" id="features">
+        <div class="section-header">
+            <h2 data-i18n="featHeading">ফ্লিকাটা অ্যাপের অসাধারণ ফিচারসমূহ</h2>
+            <p data-i18n="featSub">একটি আধুনিক সোশ্যাল মিডিয়া অ্যাপে যা যা থাকা প্রয়োজন, তার সবই পাবেন এক অ্যাপে।</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card-3d">
+                <div class="f-icon-3d" style="background: rgba(0, 86, 255, 0.12); color: #0056ff;">
+                    <i class="fa-solid fa-house-laptop"></i>
+                </div>
+                <h3 data-i18n="f1Title">স্মার্ট নিউজফিড ও স্টোরি</h3>
+                <p data-i18n="f1Desc">প্রতিদিনের ছবি, ভিডিও, টেক্সট স্টাইলিং এবং ২৪ ঘণ্টার আকর্ষণীয় স্টোরি শেয়ার করার আধুনিক হোম ফিড।</p>
+            </div>
+
+            <div class="feature-card-3d">
+                <div class="f-icon-3d" style="background: rgba(139, 92, 246, 0.12); color: #8b5cf6;">
+                    <i class="fa-solid fa-clapperboard"></i>
+                </div>
+                <h3 data-i18n="f2Title">এইচডি রিলস ভিডিও</h3>
+                <p data-i18n="f2Desc">বিনোদনমূলক শর্ট ভিডিও দেখা, অরিজিনাল অডিও ব্যবহার করা, লাইক, কমেন্ট ও ভিউ ট্র্যাকিং সুবিধা।</p>
+            </div>
+
+            <div class="feature-card-3d">
+                <div class="f-icon-3d" style="background: rgba(16, 185, 129, 0.12); color: #10b981;">
+                    <i class="fa-solid fa-comments"></i>
+                </div>
+                <h3 data-i18n="f3Title">রিয়েল-টাইম চ্যাট মেসেঞ্জার</h3>
+                <p data-i18n="f3Desc">অন্যান্য অ্যাপ ছাড়াই সরাসরি অ্যাপের ভেতর সক্রিয় বন্ধুদের সাথে দ্রুত চ্যাটিং ও কনভার্সেশন সার্চ অপশন।</p>
+            </div>
+
+            <div class="feature-card-3d">
+                <div class="f-icon-3d" style="background: rgba(245, 158, 11, 0.12); color: #f59e0b;">
+                    <i class="fa-solid fa-chart-pie"></i>
+                </div>
+                <h3 data-i18n="f4Title">ক্রিয়েটর ড্যাশবোর্ড ও ইনসাইটস</h3>
+                <p data-i18n="f4Desc">২৪ ঘণ্টা থেকে আজীবন পর্যন্ত আপনার পোস্ট ও রিলসের ভিউ, এনগেজমেন্ট এবং নতুন ফলোয়ারের হিসাব দেখুন।</p>
+            </div>
+
+            <div class="feature-card-3d">
+                <div class="f-icon-3d" style="background: rgba(59, 130, 246, 0.12); color: #2563eb;">
+                    <i class="fa-solid fa-flag"></i>
+                </div>
+                <h3 data-i18n="f5Title">পেজ তৈরি ও বিজ্ঞাপন সুবিধা</h3>
+                <p data-i18n="f5Desc">নিজের ব্যবসা বা ব্র্যান্ডের জন্য পেজ তৈরি করুন এবং বিজ্ঞাপন অপশনের মাধ্যমে অডিয়েন্স প্রমোট করুন।</p>
+            </div>
+
+            <div class="feature-card-3d">
+                <div class="f-icon-3d" style="background: rgba(236, 72, 153, 0.12); color: #ec4899;">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <h3 data-i18n="f6Title">ভেরিফাইড ব্যাজ ও মার্কেটপ্লেস</h3>
+                <p data-i18n="f6Desc">অফিশিয়াল নীল-ব্যাজ ভেরিফিকেশন, পণ্য কেনাবেচার জন্য মার্কেটপ্লেস, সেভড পোস্ট এবং ডার্ক ও লাইট থিম।</p>
+            </div>
+        </div>
+
+        <!-- Monetization & Dashboard Highlight (with im8.png) -->
+        <div class="highlight-box-3d" id="monetization">
+            <div>
+                <div style="display: inline-block; background: rgba(255,255,255,0.2); padding: 6px 16px; border-radius: 50px; font-size: 13px; font-weight: 700; margin-bottom: 14px;" data-i18n="monBadge">
+                    💰 ক্রিয়েটর পার্টনার প্রোগ্রাম ও ডিজিটাল ওয়ালেট
+                </div>
+                <h2 data-i18n="monHeading">কনটেন্ট তৈরি করে আয় করুন ৫৫% বিজ্ঞাপন রেভিনিউ!</h2>
+                <p data-i18n="monDesc">
+                    ফ্লিকাটা ক্রিয়েটর পার্টনার প্রোগ্রামের মাধ্যমে আপনার পোস্ট এবং রিলস ভিডিওর বিজ্ঞাপন ভিউ থেকে ৫৫% রেভিনিউ শেয়ার পাবেন। অর্জিত টাকা সরাসরি অ্যাপের নিজস্ব <strong>ডিজিটাল ওয়ালেট</strong> থেকে রিচার্জ বা উত্তোলন করতে পারবেন।
+                </p>
+
+                <div class="criteria-list">
+                    <div class="criteria-item">
+                        <i class="fa-solid fa-users"></i>
+                        <span data-i18n="crit1">১০০০ ফলোয়ার্স</span>
+                    </div>
+                    <div class="criteria-item">
+                        <i class="fa-solid fa-file-pen"></i>
+                        <span data-i18n="crit2">১৫টি পোস্ট</span>
+                    </div>
+                    <div class="criteria-item">
+                        <i class="fa-solid fa-video"></i>
+                        <span data-i18n="crit3">১০টি রিলস ভিডিও</span>
+                    </div>
+                    <div class="criteria-item">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <span data-i18n="crit4">৩০ দিনের অ্যাকাউন্ট বয়স</span>
+                    </div>
+                </div>
+
+                <div class="wallet-methods">
+                    <div class="method-pill">
+                        <i class="fa-solid fa-wallet" style="color: #0056ff;"></i>
+                        <span data-i18n="pay1">ওয়ালেট ব্যালেন্স (টাকা)</span>
+                    </div>
+                    <div class="method-pill">
+                        <i class="fa-solid fa-money-bill-transfer" style="color: #f97316;"></i>
+                        <span data-i18n="pay2">নগদ পার্সোনাল</span>
+                    </div>
+                    <div class="method-pill">
+                        <i class="fa-solid fa-rocket" style="color: #8b5cf6;"></i>
+                        <span data-i18n="pay3">রকেট ট্রান্সফার</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight-img-wrap">
+                <img src="im8.png" alt="Dashboard & Monetization" onclick="openLightbox(7)">
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Guide Section -->
+    <section class="section" id="install">
+        <div class="section-header">
+            <h2 data-i18n="instHeading">কীভাবে অ্যাপটি ডাউনলোড ও ইনস্টল করবেন?</h2>
+            <p data-i18n="instSub">প্লে-স্টোর ছাড়াই মাত্র ৩টি সহজ ধাপে আপনার অ্যান্ড্রয়েড ফোনে অফিশিয়াল ফ্লিকাটা অ্যাপ ইনস্টল করুন।</p>
+        </div>
+
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-num" data-i18n="step1Num">১</div>
+                <h3 data-i18n="step1Title">অ্যাপ ফাইল ডাউনলোড করুন</h3>
+                <p style="color: var(--text-secondary); margin-top: 10px; font-size: 14px;" data-i18n="step1Desc">
+                    নিচের বা উপরের ডাউনলোড বাটনে ক্লিক করে অফিশিয়াল অ্যাপ ফাইলটি আপনার ফোনে ডাউনলোড করে নিন।
+                </p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-num" data-i18n="step2Num">২</div>
+                <h3 data-i18n="step2Title">পারমিশন অনুমতি দিন</h3>
+                <p style="color: var(--text-secondary); margin-top: 10px; font-size: 14px;" data-i18n="step2Desc">
+                    ডাউনলোড করা ফাইলে ক্লিক করার পর ফোনের সেটিংস থেকে অজানা উৎস থেকে ইনস্টল অপশনটি চালু করুন।
+                </p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-num" data-i18n="step3Num">৩</div>
+                <h3 data-i18n="step3Title">অ্যাকাউন্ট খুলে শুরু করুন</h3>
+                <p style="color: var(--text-secondary); margin-top: 10px; font-size: 14px;" data-i18n="step3Desc">
+                    ইনস্টল সম্পন্ন হলে অ্যাপটি ওপেন করুন, আপনার প্রোফাইল সাজিয়ে নিন এবং বন্ধুদের সাথে যুক্ত হোন!
+                </p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 46px;">
+            <p style="color: var(--text-secondary); margin: 0 0 18px; font-size: 14px;">অফিশিয়াল APK • ফাইলের আকার প্রায় ২২.৮ MB • শুধুমাত্র Android ফোনের জন্য</p>
+            <a href="flikata.apk" download="flikata.apk" type="application/vnd.android.package-archive" class="btn-3d btn-download-lg">
+                <i class="fa-brands fa-android" style="font-size: 24px;"></i>
+                <span data-i18n="instBtnBottom">এখনই ডাউনলোড করুন (ফ্লিকাটা অ্যাপ)</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- 3D Contact Section (3 Info Cards + Imo & Telegram Direct Contact Cards) -->
+    <section class="section" id="contact">
+        <div class="section-header">
+            <h2 data-i18n="conHeading">আমাদের সাথে যোগাযোগ করুন</h2>
+            <p data-i18n="conSub">অ্যাপ ডাউনলোড, মনিটাইজেশন, ওয়ালেট বা যেকোনো কারিগরি সহযোগিতার জন্য সরাসরি আমাদের সাথে যোগাযোগ করুন।</p>
+        </div>
+
+        <div class="contact-container-3d">
+            <!-- Left Info Cards + Imo & Telegram Cards -->
+            <div class="contact-info-list">
+                <!-- Card 1: Email Support -->
+                <a href="mailto:support@flikata.com" class="contact-card-3d">
+                    <div class="c-icon-box">
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="conCard1Title">ইমেইল সাপোর্ট</h4>
+                        <p data-i18n="conCard1Desc">যেকোনো প্রয়োজনে আমাদের মেইল করুন</p>
+                    </div>
+                </a>
+
+                <!-- Card 2: Live Helpline -->
+                <div class="contact-card-3d">
+                    <div class="c-icon-box" style="background: linear-gradient(135deg, #10b981, #059669);">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="conCard2Title">সরাসরি হেল্পলাইন</h4>
+                        <p data-i18n="conCard2Desc">সকাল ৯টা থেকে রাত ১০টা পর্যন্ত সক্রিয়</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Official Office -->
+                <div class="contact-card-3d">
+                    <div class="c-icon-box" style="background: linear-gradient(135deg, #f59e0b, #d97706);">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <h4 data-i18n="conCard4Title">অফিশিয়াল কার্যালয়</h4>
+                        <p data-i18n="conCard4Desc">সুসং, দুর্গাপুর, নেত্রকোনা</p>
+                    </div>
+                </div>
+
+                <!-- Direct Contact Cards below: Imo & Telegram -->
+                <div class="direct-chat-grid">
+                    <!-- Imo Direct Contact -->
+                    <a href="#contact" class="contact-card-3d">
+                        <div class="c-icon-box" style="background: linear-gradient(135deg, #0062ff, #00c6ff);">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <div>
+                            <h4 data-i18n="conImoTitle">ইমো</h4>
+                            <p data-i18n="conImoDesc">ইমোতে কথা বলুন</p>
+                        </div>
+                    </a>
+
+                    <!-- Telegram Direct Contact -->
+                    <a href="#contact" class="contact-card-3d">
+                        <div class="c-icon-box" style="background: linear-gradient(135deg, #0088cc, #005f8f);">
+                            <i class="fa-brands fa-telegram"></i>
+                        </div>
+                        <div>
+                            <h4 data-i18n="conTgTitle">টেলিগ্রাম</h4>
+                            <p data-i18n="conTgDesc">টেলিগ্রামে মেসেজ দিন</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right 3D Contact Form -->
+            <div class="contact-form-3d">
+                <h3 data-i18n="formTitle">সরাসরি বার্তা পাঠান</h3>
+                <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label data-i18n="labelName">আপনার নাম</label>
+                        <input type="text" class="input-3d" id="inputName" placeholder="আপনার পূর্ণ নাম লিখুন" required>
+                    </div>
+                    <div class="form-group">
+                        <label data-i18n="labelPhone">মোবাইল নম্বর অথবা ইমেইল</label>
+                        <input type="text" class="input-3d" id="inputContact" placeholder="আপনার মোবাইল নম্বর বা ইমেইল লিখুন" required>
+                    </div>
+                    <div class="form-group">
+                        <label data-i18n="labelMsg">আপনার বার্তা</label>
+                        <textarea class="input-3d" id="inputMessage" placeholder="আপনার প্রশ্ন বা মতামত বিস্তারিত লিখুন..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-3d" style="width: 100%; padding: 15px; font-size: 16px;">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span data-i18n="formSubmitBtn">বার্তা পাঠান</span>
+                    </button>
+                    <div class="form-status-msg" id="formStatusMsg" data-i18n="formSuccess">
+                        আপনার বার্তাটি সফলভাবে পাঠানো হয়েছে! আমরা শীঘ্রই যোগাযোগ করব।
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with "আমাদের সোশ্যাল মিডিয়ায় যুক্ত হোন" & Channel Links -->
+    <footer>
+        <div class="logo-wrap" style="justify-content: center; margin-bottom: 14px;">
+            <div class="logo-icon" style="width: 40px; height: 40px; font-size: 18px;" data-i18n="logoLetter">ফ</div>
+            <span class="logo-text" style="font-size: 24px;" data-i18n="brandName">ফ্লিকাটা</span>
+        </div>
+        <p style="color: var(--text-secondary); font-size: 14.5px; max-width: 520px; margin: 0 auto;" data-i18n="footerTagline">
+            ক্রিয়েটর মনিটাইজেশন এবং ডিজিটাল ওয়ালেট সমৃদ্ধ পরবর্তী প্রজন্মের সোশ্যাল মিডিয়া প্ল্যাটফর্ম।
+        </p>
+
+        <!-- Social Media Channels Box inside Footer -->
+        <div class="footer-social-box">
+            <h4 class="footer-social-title" data-i18n="socialTitle">আমাদের সোশ্যাল মিডিয়ায় যুক্ত হোন</h4>
+            <div class="footer-socials">
+                <a href="#" class="social-btn-3d fb" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-btn-3d yt" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" class="social-btn-3d tg" aria-label="Telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="#" class="social-btn-3d wa" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#" class="social-btn-3d ig" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social-btn-3d tt" aria-label="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+
+        <ul class="footer-nav">
+            <li><a href="#home" data-i18n="navHome">হোম</a></li>
+            <li><a href="#screenshots" data-i18n="navGallery">স্ক্রিনশট গ্যালারি</a></li>
+            <li><a href="#features" data-i18n="navFeatures">ফিচারসমূহ</a></li>
+            <li><a href="#monetization" data-i18n="navMonetization">মনিটাইজেশন ও ওয়ালেট</a></li>
+            <li><a href="#install" data-i18n="navInstall">ডাউনলোড গাইড</a></li>
+            <li><a href="#contact" data-i18n="navContact">যোগাযোগ</a></li>
+        </ul>
+
+        <p style="color: var(--text-secondary); font-size: 13.5px;" data-i18n="footerCopy">
+            &copy; ২০২৬ ফ্লিকাটা। সর্বস্বত্ব সংরক্ষিত।
+        </p>
+    </footer>
+
+    <!-- Fullscreen Zoomable Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-top-bar">
+            <span id="lightboxTitle" style="font-weight: 700; font-size: 15px;">১. হোম পেজ ও স্টোরি</span>
+            <div class="zoom-controls">
+                <button class="zoom-btn" onclick="changeZoom(-0.25)">
+                    <i class="fa-solid fa-magnifying-glass-minus"></i>
+                </button>
+                <span id="zoomLevelText" style="min-width: 52px; text-align: center; font-weight: 600; font-size: 14px;">১০০%</span>
+                <button class="zoom-btn" onclick="changeZoom(0.25)">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+                <button class="zoom-btn" onclick="resetZoom()">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </button>
+                <button class="zoom-btn" onclick="closeLightbox()" style="background: #ef4444;">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="lightbox-stage" id="lightboxStage">
+            <img src="im1.png" id="lightboxImg" alt="Zoomed Screenshot">
+        </div>
+
+        <div class="lightbox-bottom-bar">
+            <button class="zoom-btn" onclick="switchImage(-1)">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <span style="color: #cbd5e1; font-size: 13.5px;" data-i18n="lightboxBottomHint">মাউস হুইল ঘুরিয়ে বা বাটনে ক্লিক করে জুম ইন ও জুম আউট করুন</span>
+            <button class="zoom-btn" onclick="switchImage(1)">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript for Pure Bilingual System, Theme, Carousel & Zoom -->
+    <script src="js/script-01.js"></script>
+</body>
+</html>
